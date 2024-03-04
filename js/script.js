@@ -2,7 +2,7 @@ function init(){
   var button = document.getElementById('entrybutton');
 
   function showMeText(){
-    var textbox = document.getElementById('textentry');
+    var textbox = document.getElementById('entryinput');
     var alertMessage = "Curtis McEwen: " + textbox.value;
     alert(alertMessage);
     document.getElementById('textoutput').innerHTML = textbox.value;
