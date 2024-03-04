@@ -2,10 +2,10 @@ function init(){
   var button = document.getElementById('entrybutton');
 
   function showMeText(){
-    var textBox = document.getElementById('text_input');
-    var alertMessage = "Curtis McEwen: " + textBox.value;
+    var textbox = document.getElementById('text_input');
+    var alertMessage = "Curtis McEwen: " + textbox.value;
     alert(alertMessage);
-    document.getElementById('textoutput').innerHTML = textBox.value;
+    document.getElementById('textoutput').innerHTML = textbox.value;
   }
 
   button.addEventListener('click', showMeText);
